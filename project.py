@@ -15,7 +15,7 @@ MQTT_TOPIC = "number_plate"
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 EMAIL_SENDER = "roshnijariwala02@gmail.com"  # Replace with your email
-EMAIL_PASSWORD = "rkvkubpfsarwlwoq"  # Replace with your email password
+EMAIL_PASSWORD = "*******"  # Replace with your email password
 EMAIL_RECEIVER = "yashpatel940516@gmail.com"
 
 # Initialize MQTT client
@@ -121,4 +121,5 @@ while True:
                     send_email(text)  # Send an email notification
 
 cap.release()
+
 mqtt_client.disconnect()
